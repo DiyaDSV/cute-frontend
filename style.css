@@ -1,0 +1,49 @@
+.pat-cute-dog
+{
+    position: relative;
+    display: inline-block;
+}
+.cute-dog
+{
+    display: block;
+    height: 500px;
+    width: 500px;
+}
+.patting-circle
+{
+    position: absolute;
+    top: 130px;
+    left: 190px;
+    height: 100px;
+    width: 175px;
+    border-radius: 100%;
+    /*background-color: blanchedalmond;*/
+    cursor: url('patting-cursor.png') 20 20, auto;
+}
+@keyframes bouncing-hearts {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+    
+}
+.patting-circle:hover ~ .hearts
+{
+    display: block;
+    animation: bouncing-hearts 2s ease-in-out infinite;
+}
+.hearts
+{
+    position: absolute;
+    display: none;
+    height: 100px;
+    width: 200px;
+    top: 20px;
+    left: 100px;
+}
