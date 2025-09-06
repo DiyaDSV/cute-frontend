@@ -12,10 +12,10 @@
 .patting-circle
 {
     position: absolute;
-    top: 130px;
-    left: 190px;
-    height: 100px;
-    width: 175px;
+    top: 120px;
+    left: 205px;
+    height: 150px;
+    width: 150px;
     border-radius: 100%;
     /*background-color: blanchedalmond;*/
     cursor: url('patting-cursor.png') 20 20, auto;
