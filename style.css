@@ -33,6 +33,10 @@
     }
     
 }
+.patting-circle:hover ~ .pat-message
+{
+    display: none;
+}
 .patting-circle:hover ~ .hearts
 {
     display: block;
@@ -46,4 +50,13 @@
     width: 200px;
     top: 20px;
     left: 100px;
+}
+.pat-message
+{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    font-size: 30px;
+    color: palevioletred;
+    font-family: "Sofia", sans-serif;
 }
